@@ -11,9 +11,6 @@ function Create(name, ps, price = 0, img) {
 	shop_img.classList.add("shop_img");
 	shop_img.src = `${img}`;
 	shop_img.alt = `${name}`;
-	shop_img.style.width = "200px";
-	shop_img.style.height = "200px";
-	shop_img.style.borderRadius = "14px";
 
 	let shop_card = document.createElement("div");
 	gen_card.appendChild(shop_card);

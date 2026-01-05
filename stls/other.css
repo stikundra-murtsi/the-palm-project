@@ -38,6 +38,23 @@ body {
 	box-sizing: border-box;
 }
 
+.shop_img {
+	width: 20rem;
+	height: 20rem;
+	border-radius: 14px;
+}
+
+@media (max-width: 800px) {
+	.gen_shop_card {
+		flex-direction: column;
+	}
+	
+	.shop_img {
+		width: 100%;
+		height: 100%;
+	}
+}
+
 .shop_card {
 	width: 100%;
 	height: auto;
