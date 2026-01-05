@@ -3,6 +3,7 @@
 
 	--button-color: #e3e16c; /* Цвет кнопки */
 	--button-text-color: #012010; /* Цвет текста на кнопке */
+	--button-font-family: "Nunito"; /* Семейство шрифтов кнопки */
 	--button-border-radius: 14px; /* Радиус угла */
 	--button-padding: 5px; /* Внутренние отступы кнопки */
 	--button-anim-time: 0.1s; /* Скорость анимации кнопки */
@@ -15,6 +16,7 @@ button {
 	color: var(--button-text-color);
 	border-radius: var(--button-border-radius);
 	padding: var(--button-padding);
+	font-family: var(--button-font-family);
 	border: 0;
 	appearance: none;
 	transition: background-color, var(--button-anim-time);

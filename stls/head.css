@@ -18,7 +18,7 @@
 	--header-font-size: 24px; /* Размер шрифта в голове */
 	--header-gap: 10px; /* Отступ между элементами головы */
 	--header-border-radius: 14px; /* Скругление углов */
-	--header-font-family: Arial; /* Шрифт головы */
+	--header-font-family: "Nunito"; /* Шрифт головы */
 	
 	/* Настройка остальных элементов головы */
 	--header-addition-color: #012010; /* Цвет фона для остальных элементов */
